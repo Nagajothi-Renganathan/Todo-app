@@ -1,0 +1,160 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:skyblue;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+}
+.main{
+  display: grid;
+  /* justify-content: center; */
+  /* align-items: center; */
+  place-items: center;
+  margin:130px 0;
+}
+.center{
+  background-color: white;
+  width: 40vw;
+  border-radius: 10px;
+  height:auto;
+  text-align: center;
+  margin-bottom: 5%;
+  /* display: grid; */
+  /* justify-content: center; */
+}
+.center input{
+  background-color: rgb(240, 232, 232);
+  border: 1px solid rgb(248, 245, 245);
+  border-radius: 20px;
+  padding: 10px;
+  width:30vw;
+  font-size: large;
+  font-weight: bold;
+}
+.center .btn{
+  border-radius: 10px;
+  border: 2px solid skyblue;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: skyblue;
+  width:5vw;
+  font-size: large;
+  font-weight: bold;
+}
+.para{
+  color:red;
+  font-size: medium;
+  font-weight: 500;
+}
+/* .list-container .clr-btn{
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  display: grid;
+  align-items: center;
+  width: 10vw;
+  margin-top: 20px;
+  padding: 5px;
+  font-family:"Poppins", sans-serif ;
+  font-weight: 400;
+  font-size: medium;
+} */
+.center ul li{
+  list-style-type: none;
+  background-color:white;
+  /* width: -10vw; */
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding: 0px;
+  font-size:x-large;
+  font-weight:500;
+  font-family:"Poppins", sans-serif;
+}
+ .center .list-container{
+display: grid;
+place-items: flex-start;
+}
+.del-icon{
+  color:red;
+  font-size: x-large;
+  font-weight: 500;
+  position: absolute;
+  right: 35%;
+  background-color: rgb(230, 223, 223);
+  flex-direction: column;
+  justify-content:flex-end;
+  border: none;
+  background-color: white;
+}
+.sad{
+  font-size:large;
+  font-weight:bolder;
+  margin-bottom: -5px;
+}
+@media screen and (max-width:767px) {
+  .center .btn{
+    width: 15vw;
+  }
+  
+}
+
+
+
+/* .card{
+  display: flex;
+  margin-left: 33%;
+  margin-top: 100px;
+  height: 35rem;
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  border-color: 4px solid skyblue;
+}
+.card h1{
+  margin-left: 215px;
+}
+.card-content input
+{
+  border: 1px solid rgb(241, 240, 240);
+  border-radius: 25px;
+  margin-left: 150px;
+  padding: 15px;
+  background-color: rgb(232, 228, 228);
+  font-size: x-large;
+}
+.card-content button{
+  display: block;
+  margin-left: 270px;
+  margin-top:10px;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(112, 110, 110);
+}
+.content p{
+  color: red;
+  margin-left:235px ;
+}
+.content ul p{
+  color: black;
+  margin-left:180px ;
+  font-size: larger;
+}
+.map li{
+  margin-left: 100px;
+  list-style-type: none;
+}
+.map li{
+  font-size:x-large;
+  justify-content: space-between;
+  background-color: rgb(226, 223, 223);
+  border-radius: 20px;
+  width: 120%;
+  margin-left:15px ;
+  margin: 20px 0;
+  
+}
+
+ */
